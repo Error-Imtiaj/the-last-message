@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Sora", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Space Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-hud-cyan: #00f2ff;
+  --color-hud-cyan-dim: #00dbe7;
+  --color-hud-cyan-bg: rgba(0, 242, 255, 0.08);
+  --color-space-black: #020205;
+  --color-glass-surface: rgba(19, 19, 25, 0.5);
+  --color-on-surface: #e4e1ea;
+  --color-muted-slate: #5e5e6e;
+}
+
+@utility glow-cyan {
+  box-shadow: 0 0 15px rgba(0, 242, 255, 0.3), inset 0 0 10px rgba(0, 242, 255, 0.1);
+}
+
+@utility glow-text-cyan {
+  text-shadow: 0 0 8px rgba(0, 242, 255, 0.6);
+}
+
+@utility glow-cyan-heavy {
+  box-shadow: 0 0 25px rgba(0, 242, 255, 0.5), inset 0 0 15px rgba(0, 242, 255, 0.2);
+}
+
+@utility chamfer {
+  clip-path: polygon(16px 0%, 100% 0%, 100% calc(100% - 16px), calc(100% - 16px) 100%, 0% 100%, 0% 16px);
+}
+
+@utility chamfer-sm {
+  clip-path: polygon(8px 0%, 100% 0%, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0% 100%, 0% 8px);
+}
+
+@utility chamfer-top {
+  clip-path: polygon(16px 0%, calc(100% - 16px) 0%, 100% 16px, 100% 100%, 0% 100%, 0% 16px);
+}
+
+@utility scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  );
+  background-size: 100% 4px;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.animate-blink {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes sweep {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.animate-sweep {
+  animation: sweep 2.5s ease-in-out infinite;
+}
+
+@keyframes pulse-cyan {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.8; }
+}
+
+.animate-pulse-cyan {
+  animation: pulse-cyan 2s infinite;
+}
+
+/* Ensure font defaults are set properly */
+body {
+  font-family: var(--font-sans);
+  background-color: #020205;
+  color: #e4e1ea;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}

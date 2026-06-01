@@ -1,0 +1,6 @@
+{
+  "name": "Event Horizon",
+  "description": "An immersive interactive sci-fi terminal experience detailing Earth's final broadcast and humanity's journey to the stars.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
