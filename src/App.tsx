@@ -478,7 +478,7 @@ export default function App() {
                 {/* Central Glassmorphic Dossier Card */}
                 <div className="relative border border-hud-cyan/20 bg-glass-surface p-8 md:p-12 backdrop-blur-xl max-w-2xl shadow-[0_0_30px_rgba(0,242,255,0.05)] w-full chamfer">
                   {/* Absolute Corner Blueprint Tabs */}
-                  <div className="absolute top-0 left-6 -translate-y-1/2 bg-space-black border border-hud-cyan/30 px-3 py-0.5 text-[8px] font-mono text-hud-cyan tracking-widest">
+                  <div className="absolute top-0 left-6 -translate-y-1/2 bg-space-black border border-hud-cyan/30 px-3 py-1 text-[10px] leading-none font-mono text-hud-cyan tracking-widest whitespace-nowrap">
                     VESSEL_CLASS: ARK_OMEGA
                   </div>
 
