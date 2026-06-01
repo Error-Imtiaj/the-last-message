@@ -623,7 +623,7 @@ export default function App() {
 
                   <div className="space-y-6">
                     <h1 className="text-2xl md:text-4xl font-sans font-bold tracking-tight text-white uppercase glow-text-cyan leading-snug">
-                      A Message For Whoever Come<span className="text-hud-cyan animate-blink inline-block">_</span>
+                      A Message For Whoever Comes Next<span className="text-hud-cyan animate-blink inline-block">_</span>
                     </h1>
 
                     <Typewriter
