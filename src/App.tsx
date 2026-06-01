@@ -381,7 +381,7 @@ export default function App() {
                       className="relative border border-hud-cyan bg-hud-cyan/5 hover:bg-hud-cyan/20 text-hud-cyan font-mono text-xs tracking-widest py-3 px-5 transition duration-200 cursor-pointer overflow-hidden flex items-center justify-center gap-2 group glow-cyan"
                     >
                       {/* Laser scanning light sweep line */}
-                      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-hud-cyan/25 to-transparent w-1/2 h-full -skew-x-12 -translate-x-full group-hover:animate-sweep" />
+                      <div className="absolute inset-0 pointer-events-none bg-gradient-to-r from-transparent via-hud-cyan/25 to-transparent w-1/2 h-full -skew-x-12 -translate-x-full group-hover:animate-sweep" />
                       <span>Continue</span>
                       <span className="text-hud-cyan group-hover:translate-x-1 transition-transform">❯</span>
                     </button>
@@ -401,7 +401,7 @@ export default function App() {
                 <div className="w-full lg:w-1/2 space-y-8">
                   <div className="space-y-4">
                     <h1 className="text-3xl md:text-5xl font-sans font-bold tracking-tight text-white leading-tight">
-                      Earth Was Running Out O<span className="animate-blink bg-hud-cyan w-2 h-7 inline-block align-middle ml-1" />
+                      Earth Was Running Out Of Time<span className="animate-blink bg-hud-cyan w-2 h-7 inline-block align-middle ml-1" />
                     </h1>
 
                     <Typewriter
@@ -464,7 +464,7 @@ export default function App() {
                       onMouseEnter={() => handleSound('tick')}
                       className="flex-1 relative border border-hud-cyan bg-hud-cyan/5 hover:bg-hud-cyan/20 text-hud-cyan font-mono text-xs tracking-widest py-3 px-5 transition cursor-pointer flex items-center justify-center gap-2 group glow-cyan"
                     >
-                      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-hud-cyan/25 to-transparent w-1/2 h-full -skew-x-12 -translate-x-full group-hover:animate-sweep" />
+                      <div className="absolute inset-0 pointer-events-none bg-gradient-to-r from-transparent via-hud-cyan/25 to-transparent w-1/2 h-full -skew-x-12 -translate-x-full group-hover:animate-sweep" />
                       <span>Continue</span>
                     </button>
                   </div>
@@ -536,7 +536,7 @@ export default function App() {
                     onMouseEnter={() => handleSound('tick')}
                     className="flex-1 relative border border-hud-cyan bg-hud-cyan/5 hover:bg-hud-cyan/20 text-hud-cyan font-mono text-xs tracking-widest py-3 px-5 transition cursor-pointer flex items-center justify-center gap-2 group glow-cyan"
                   >
-                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-hud-cyan/25 to-transparent w-1/2 h-full -skew-x-12 -translate-x-full group-hover:animate-sweep" />
+                    <div className="absolute inset-0 pointer-events-none bg-gradient-to-r from-transparent via-hud-cyan/25 to-transparent w-1/2 h-full -skew-x-12 -translate-x-full group-hover:animate-sweep" />
                     <span>Continue</span>
                   </button>
                 </div>
@@ -595,7 +595,7 @@ export default function App() {
                     onMouseEnter={() => handleSound('tick')}
                     className="flex-1 relative border border-hud-cyan bg-hud-cyan/5 hover:bg-hud-cyan/20 text-hud-cyan font-mono text-xs tracking-widest py-3 px-5 transition cursor-pointer flex items-center justify-center gap-2 group glow-cyan"
                   >
-                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-hud-cyan/25 to-transparent w-1/2 h-full -skew-x-12 -translate-x-full group-hover:animate-sweep" />
+                    <div className="absolute inset-0 pointer-events-none bg-gradient-to-r from-transparent via-hud-cyan/25 to-transparent w-1/2 h-full -skew-x-12 -translate-x-full group-hover:animate-sweep" />
                     <span>CONTINUE</span>
                   </button>
                 </div>
@@ -668,7 +668,7 @@ export default function App() {
                     onMouseEnter={() => handleSound('tick')}
                     className="flex-1 relative border border-hud-cyan bg-hud-cyan/5 hover:bg-hud-cyan/20 text-hud-cyan font-mono text-xs tracking-widest py-3 px-5 transition cursor-pointer flex items-center justify-center gap-2 group glow-cyan"
                   >
-                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-hud-cyan/25 to-transparent w-1/2 h-full -skew-x-12 -translate-x-full group-hover:animate-sweep" />
+                    <div className="absolute inset-0 pointer-events-none bg-gradient-to-r from-transparent via-hud-cyan/25 to-transparent w-1/2 h-full -skew-x-12 -translate-x-full group-hover:animate-sweep" />
                     <span>Continue</span>
                   </button>
                 </div>
